@@ -8,7 +8,7 @@ command: >-
 inputs:
   training_data:
       type: uri_folder
-          path: azureml:diabetes-dev-folder@latest
+      path: azureml:diabetes-dev-folder@latest
 outputs:
   metrics_output:
     type: uri_folder
